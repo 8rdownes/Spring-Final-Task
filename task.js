@@ -4,11 +4,17 @@ const TaskExport = function(){
 
     //returns a task object, similar to pizza
     function createTask(v,t){
-        
+        return{
+          Value:v,
+          Time:t
+        }
     }
+    let nT=new Task(,);
 
     //returns a random integer between 0 and n inclusive
     function rInt(n){
+    let r=(Math.random()*n);
+        return Math.floor(r);
 
     }
     //returns a list of task objects.
