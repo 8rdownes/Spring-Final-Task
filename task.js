@@ -6,7 +6,7 @@ const TaskExport = function(){
     function createTask(v,t){
         return{
           Value:v,
-          Time:t
+          Time:t,
         }
     }
     let nT=new Task(,);
